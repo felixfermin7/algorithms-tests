@@ -1,0 +1,24 @@
+{
+  "name": "algorithms-tests",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "sls offline",
+    "test": "./node_modules/nyc/bin/nyc.js mocha tests/**/*Test.js --exit"
+  },
+  "keywords": [],
+  "author": "Felix Fermin",
+  "dependencies": {
+    "joi": "^17.2.1",
+    "serverless-offline": "^4.10.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "nyc": "^15.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}
